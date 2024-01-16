@@ -18,7 +18,7 @@ After installation is done, just run application
 ```
 npm start
 ```
-<p>Now you can access to API with url:</p>
+Now you can access to API with url:
 [http://http://localhost:3000](http://localhost:3000)
 
 ## Using application
@@ -48,7 +48,7 @@ Body: {"text": "Your text"}
 ## LangСhain usage
 This application has **LangChainModule** and **LangChainService** components. It is designed to really integrate with LangChain technology. But this application only implements a simulation of LangChain behaviour:
 
-```
+```typescript
 @Injectable()
 export class LangChainService {
   processText(text: string): string {
